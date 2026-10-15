@@ -1,0 +1,8 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StatDef[@Name="ArmorRatingBase" or defName="ArmorRating_Sharp" or defName="ArmorRating_Blunt" or defName="ArmorRating_Heat"]/parts/li[@Class="CombatExtended.StatPart_QualityConditional"]</xpath>
+    <value>
+      <li Class="TSA.CE.QualityScaling.StatPart_QualityCustom" />
+    </value>
+  </Operation>
+</Patch>
